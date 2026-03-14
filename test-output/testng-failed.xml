@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TESTCASE.TC__001CreateProductCreatePOReceivePO">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="TearDown"/>
+          <include name="createProduct"/>
+          <include name="openReportInBrowser"/>
+        </methods>
+      </class> <!-- TESTCASE.TC__001CreateProductCreatePOReceivePO -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

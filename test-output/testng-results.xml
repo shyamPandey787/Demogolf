@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-09T23:43:00 IST" name="Suite" finished-at="2026-03-09T23:44:17 IST" duration-ms="77175">
+    <groups>
+      <group name="createSalesorder">
+        <method signature="TC__001CreateProductCreatePOReceivePO.createSalesorder()[pri:3, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" name="createSalesorder" class="TESTCASE.TC__001CreateProductCreatePOReceivePO"/>
+      </group> <!-- createSalesorder -->
+      <group name="createProduct">
+        <method signature="TC__001CreateProductCreatePOReceivePO.createProduct()[pri:1, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" name="createProduct" class="TESTCASE.TC__001CreateProductCreatePOReceivePO"/>
+        <method signature="TC__001CreateProductCreatePOReceivePO.createSalesorder()[pri:3, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" name="createSalesorder" class="TESTCASE.TC__001CreateProductCreatePOReceivePO"/>
+        <method signature="TC__001CreateProductCreatePOReceivePO.CreateEquipmentPO()[pri:4, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" name="CreateEquipmentPO" class="TESTCASE.TC__001CreateProductCreatePOReceivePO"/>
+      </group> <!-- createProduct -->
+    </groups>
+    <test started-at="2026-03-09T23:43:00 IST" name="Test" finished-at="2026-03-09T23:44:17 IST" duration-ms="77175">
+      <class name="TESTCASE.TC__001CreateProductCreatePOReceivePO">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" started-at="2026-03-09T23:43:00 IST" name="beforeTest" finished-at="2026-03-09T23:43:00 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" started-at="2026-03-09T23:43:00 IST" name="setup" finished-at="2026-03-09T23:43:08 IST" duration-ms="7971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createProduct()[pri:1, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" started-at="2026-03-09T23:43:08 IST" name="createProduct" finished-at="2026-03-09T23:43:17 IST" duration-ms="8284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method signature="createEquipment()[pri:2, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" started-at="2026-03-09T23:43:17 IST" name="createEquipment" finished-at="2026-03-09T23:43:36 IST" duration-ms="19311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEquipment -->
+        <test-method signature="createSalesorder()[pri:3, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" started-at="2026-03-09T23:43:36 IST" name="createSalesorder" finished-at="2026-03-09T23:43:44 IST" duration-ms="7597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSalesorder -->
+        <test-method signature="CreateEquipmentPO()[pri:4, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" started-at="2026-03-09T23:43:44 IST" name="CreateEquipmentPO" finished-at="2026-03-09T23:43:54 IST" duration-ms="10058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEquipmentPO -->
+        <test-method signature="createEquipmentReceiving()[pri:5, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" started-at="2026-03-09T23:43:54 IST" name="createEquipmentReceiving" finished-at="2026-03-09T23:44:17 IST" duration-ms="23293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEquipmentReceiving -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" started-at="2026-03-09T23:44:17 IST" name="TearDown" finished-at="2026-03-09T23:44:17 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" started-at="2026-03-09T23:44:17 IST" name="afterTest" finished-at="2026-03-09T23:44:17 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="openReportInBrowser()[pri:0, instance:TESTCASE.TC__001CreateProductCreatePOReceivePO@534a5a98]" started-at="2026-03-09T23:44:18 IST" name="openReportInBrowser" finished-at="2026-03-09T23:44:19 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openReportInBrowser -->
+      </class> <!-- TESTCASE.TC__001CreateProductCreatePOReceivePO -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
